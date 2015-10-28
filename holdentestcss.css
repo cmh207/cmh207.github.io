@@ -1,0 +1,108 @@
+html{
+	border: 3px black solid;
+}
+body{
+	font-family: Century;
+	padding: 5px;
+	margin: 0;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2.25em;
+}
+
+h3{
+	font-size: 1.68em;
+}
+
+p {
+	font-size: 1.27em;
+	font-family: Times;
+}
+
+
+.smalltext{
+	font-size: 1.15em;
+}
+
+.hidingtext{
+	font-size: 1.15em;
+}
+
+.title {
+	text-align: center;
+	border-bottom: 2px solid gray;
+}
+
+.top-title {
+	text-align: center;
+}
+
+.top-container {
+	height: auto;
+	overflow: auto;
+}
+
+.top-container img{
+	width: 280px;
+	height: 200px;
+}
+
+.top-container div{
+	width: 25%;
+	float: left;
+	text-align: center;
+	min-width: 350px;
+}
+.bottom-container {
+	text-align: center;
+	display: block;
+	height: auto;
+	overflow: auto;
+	background-image: url("bg.png");
+}
+.bottom-title {
+	text-align: center;
+	border-top: 3px solid gray;
+}
+
+.bottom-hot{
+	width: 50%;
+	float: left;
+}
+
+.bottom-hot p{
+	text-align: left;
+}
+
+.bottom-hot li{
+	text-align: left;
+}
+
+.bottom-investment {
+	width: 50%;
+	float: right;
+	height: 100%;
+	display: block;
+}
+
+.bottom-investment p {
+	text-align: left;
+}
+.specialtext {
+	text-align: center;
+	width: 100%;
+	float: left;
+	font-family: Trebuchet;
+	font-style: italic;
+	font-size: 1.22em;
+	border-bottom: 3px solid gray;
+	border-top: 3px solid gray;
+	background-color: white;
+	margin: auto 0;
+	background-image: url("sos.png");
+}
